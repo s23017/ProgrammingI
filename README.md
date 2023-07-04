@@ -1,6 +1,6 @@
 # ProgrammingI
 ## 第1章　Pythonの基本
-1.1 Pythonとその特徴
+* 1.1 Pythonとその特徴
 1.2 コードの実行方法
 1.3 外部パッケージ
 1.4 仮想環境
