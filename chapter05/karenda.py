@@ -12,5 +12,4 @@ for i in range(1, 32):
     else:
         s2 += "{:>4s}".format(str(i))
 
-# ループ終了後に最後の実行結果を表示
 print(s1 + s2)
