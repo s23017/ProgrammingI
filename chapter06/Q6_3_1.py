@@ -1,14 +1,19 @@
 class Nigiri:
+    def __init__(self):
+        self.base = "しゃり"
+        self.category = "にぎり"
+
     def show_attributes(self):
-        print("top: {}".format(self.top))
-        print("rice: {}".format(self.rice))
+        print(
+            "top: {}, base: {}, category: {}".format(self.top, self.base, self.category)
+        )
+        print("price: {}円".format(self.price))
 
 
 class Katsuo(Nigiri):
-    def __init__(self):
-        self.top = "かつお"
-        self.topping = "生姜とねぎ"
-        self.price = 100
+    top = "かつお"
+    topping = "生姜とねぎ"
+    price = 100
 
     def show_attributes(self):
         super().show_attributes()
